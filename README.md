@@ -104,7 +104,7 @@ social_network/
 ```
 ---
 
-🚦 Quick Start
+## 🚦 Quick Start
 
 🐳 Docker (Production)
 
@@ -133,7 +133,7 @@ docker exec -it social_network-server-1 python manage.py collectstatic --noinput
 ```
 ---
 
-💻 Local Development
+## 💻 Local Development
 
 ```bash
 # 1. Create virtual environment
@@ -157,7 +157,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 ---
-🐳 Docker Services
+## 🐳 Docker Services
 
 Service Port Internal Port Description
 nginx 80 80 Reverse proxy, static/media serving
@@ -181,7 +181,7 @@ docker-compose restart server
 docker exec -it social_network-db-1 mysql -u root -p
 ```
 ---
-🔐 Environment Variables
+## 🔐 Environment Variables
 
 Create local_settings.py from the example file:
 
@@ -224,7 +224,7 @@ Full Postman collection available upon request.
 
 ---
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -243,7 +243,7 @@ Development Guidelines
 
 ---
 
-📄 License
+## 📄 License
 
 Distributed under the MIT License. See LICENSE file for more information.
 
@@ -258,7 +258,7 @@ of this software and associated documentation files...
 
 ---
 
-👤 Author
+## 👤 Author
 
 Hossein Ghasemi
 
