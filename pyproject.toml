@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "social_network"
+version = "0.1.0"
+description = "A production-grade social network API with JWT authentication and Docker orchestration"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "Django>=5.0",
+    "djangorestframework>=3.15.0",
+    "djangorestframework-simplejwt>=5.3.0",
+    "mysqlclient>=2.2.0",
+    "Pillow>=10.0.0",
+    "uwsgi>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/HosseinGhasemii/social_network"
