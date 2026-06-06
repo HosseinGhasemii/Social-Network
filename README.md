@@ -271,7 +271,7 @@ Hossein Ghasemi
 
 If this project helped you or you found it useful, please give it a star!
 
-https://img.shields.io/github/stars/HosseinGhasemii/Social_Network.svg?style=social
+https://img.shields.io/github/stars/HosseinGhasemii/Social-Network.svg?style=social
 
 ---
 
